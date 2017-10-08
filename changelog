@@ -12,6 +12,10 @@ Version 1.13.10:
    * Fixed a bug where the client would return to titlescreen on receiving a
      redirect message from the server, which made connecting to the offical server
      via the "connect to official server" button impossible.
+ * WML Engine:
+   * File paths with backslashes are no longer allowed. This ensures that a UMC
+     author can't accidentally use them and make an add-on that breaks on
+     GNU/Linux and macOS.
 
 Version 1.13.9:
  * Add-ons client:
